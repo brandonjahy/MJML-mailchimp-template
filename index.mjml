@@ -1,0 +1,50 @@
+<mjml>
+
+    <mj-head>
+        <mj-title>Nanny Louenna</mj-title>
+        <mj-font name="Oxygen" href="https://fonts.googleapis.com/css2?family=Oxygen" />
+        <mj-font name="Josefin" href="https://fonts.googleapis.com/css2?family=Josefin+Sans" />
+        <mj-style inline="inline">
+            .link { color: #00DDD3; font-weight: bold; text-decoration: none }
+            .link-dark { color: #808382; text-decoration: none }
+            .link-orange { color: #fe8a71; text-decoration: none }
+        </mj-style>
+        <mj-attributes>
+            <mc-text align="left" font-size="12px" color="#384349" padding="0px" font-family="'Oxygen', sans-serif" />
+
+            <mc-section background-color="#ffffff" padding="0px" />
+            <mj-column padding="0px 20px" />
+            <mj-button padding="12px 20px" font-size="16px" border-radius="50rem" background-color="#00DDD3" color="#ffffff" font-family="'Oxygen', sans-serif" text-transform="uppercase" />
+
+            <mj-class name="h1" font-size="24px" line-height="normal" font-weight="700" font-family="'Josefin Sans', sans-serif" padding-bottom="18px" />
+            <mj-class name="h2" font-size="18px" line-height="normal" font-weight="600" font-family="'Josefin Sans', sans-serif" padding-bottom="14px" />
+            <mj-class name="p" font-size="12px" font-weight="400" line-height="1.5" font-family="'Oxygen', sans-serif" padding-bottom="12px" />
+            <mj-class name="small" font-size="10px" color="#808382" line-height="1.5" font-family="'Oxygen', sans-serif" align="center" />
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#f7f7f7">
+    
+
+        <!-- EXAMPLE TEXT AND TAGS TO SEE WHAT THIS LOOKS LIKE USE YARN BUILD OR BUILD:WATCH TO PREVIEW -->
+
+        <!--header-->
+        <mc-section background-color="#f7f7f7" padding="0">
+            <mj-column background-color="#00DDD3" padding="20px" border-radius="30px 30px 0px 0px">
+                <mc-image width="127px" href="https://nannylouenna.com" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/5a4cda6a-ea9a-41df-a993-47535772a62f.png"></mc-image>
+            </mj-column>
+        </mc-section>
+        <!--header-->
+
+        <mc-section>
+            <mj-column padding-top="16px" padding-bottom="16px">
+                <mc-text mc:edit="main_title" mj-class="h1">hi everyone i finally got it working</mc-text>
+                <mc-text mc:edit="main_title" mj-class="h2">yes this works</mc-text>
+                <mc-text mc:edit="main_text" mj-class="p" font-size="14px">does this thing still work? yes it does
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+
+    </mj-body>
+</mjml>
