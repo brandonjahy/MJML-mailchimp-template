@@ -1,8 +1,7 @@
 # mjml-mailchimp
-
-Umesto mj-section -> mc-section<br/>
-Umesto mj-image -> mc-image<br/>
-Umesto mj-text -> mc-text
+ mj-section -> mc-section<br/>
+ mj-image -> mc-image<br/>
+ mj-text -> mc-text
 
 1. yarn install
 2. yarn build
